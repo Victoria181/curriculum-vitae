@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos-->
+    <meta charset="utf-8" />
+    <meta name="author" content="Selena Merchan" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Selena Merchan"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Titulo-->
+    <title>Selena Merchan| Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/imagenes/lavado-en-seco.png" />
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300&family=Sofia+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imagenes/cohete-espacial.png"
+              width="50"
+              alt="Logo de la página web"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experiencia">Experiencia</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#Logros">Logros</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Contactame">Contactame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="./imagenes/Selena.png"
+          alt="Foto de Selena Merchan"
+        />
+        <h1>Hola, soy Selena Merchan</h1>
+        <h2>Me encanta desarrollar sitios web</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor dark-card">
+        <h2 class="seccion-titulo">Conoce a Selena Merchan</h2>
+        <p class="seccion-texto">
+          Soy una joven desarrolladora apasionada por el mundo del diseño y desarrollo de 
+          software. En este momento me encuentro finalizando un proyecto de desarrollo web junto con mi equipo Ultra, 
+          para la empresa de tecnología Centic en la ciudad de Bogotá, Colombia.            
+
+          Sin embargo me encantan los nuevos retos en los cuales pueda poner a prueba todas mis 
+          habilidades y aprender muchas cosas nuevas. 
+        </p>
+      </div>
+    </section>
+    <!-- Experiencia -->
+    <section id="Experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col m-2 dark-card">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              En el area del desarrollo web tengo diversas habilidades y 
+              conocimientos. Los cuales pongo en practica para dar siempre los mejores
+              resultados. A continuacion algunos de ellos...
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Estudiante-->
+          <div class="columna col m-2 dark-card">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>
+             Como estudiante siempre me gusta dar lo mejor es por eso que procuro
+            mantenerme siempre a la vanguardia de todos los temas mas novedosos y 
+            
+            las diversas actualizaciones. A continuacion puedes ver las areas en las que me especializo...
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Back-End</span>
+              <span class="badge text-bg-primary">Front-End</span>
+              <span class="badge text-bg-primary">Bases de Datos</span>
+              <span class="badge text-bg-primary">Diseño Web</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+            </div>
+          </div>
+          <!-- futuros proyectos -->
+          <div class="columna col m-2 dark-card">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Futuros proyectos</p>
+            <p>
+              En este momento estoy trabajando en un proyecto increible 
+              con Centic. Pero adicionalmente estoy trabajando en otros dos proyectos. Daily Outfits es una app
+              la cual nos ayuda a encontrar un atuendo diario con la ropa de nuestro closet y Random 
+              Food que ayuda a elegir a las personas recetas rapidas y faciles para cocinar en el día a día. 
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Centic</span>
+              <span class="badge text-bg-primary">Daily Outfits</span>
+              <span class="badge text-bg-primary">Random Food</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Logros -->
+    <section
+      id="Logros"
+      class="proyectos-recientes seccion-clara d-flex flex-column"
+    >
+      <h2 class="seccion-titulo texto-negro">Mis certificaciones</h2>
+      <h3 class="seccion-descripcion">
+        A continuacion encontrarás algunas de mis certificaciones...
+      </h3>
+      <!-- Galeria de certificaciones -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Gestion de bases de datos SQL -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Certificacion1.PNG" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Gestion de bases de datos SQL</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://www.credential.net/cd1f1b6f-39e3-4069-a0ff-c3c760c0d09b#gs.naillz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  <i class="bi bi-bookmark-star"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Frontend con JavaScript -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Certificacion2.PNG" alt="Frontend con JavaScript" />
+              <div class="overlay">
+                <p>Frontend con JavaScript</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://www.credential.net/159ed60b-eb83-4f12-b9e4-5be826359109#gs.naj5cu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  <i class="bi bi-bookmark-star"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Node.js para Backend -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Certificacion3.PNG" alt="Node.js para Backend" />
+              <div class="overlay">
+                <p>Node.js para Backend</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://www.credential.net/252cc2b2-50be-437c-9ede-ec4f070e0153#gs.naj5jl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  <i class="bi bi-bookmark-star"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+      <!-- Boton ver mas proyectos -->
+      <a href="https://www.credential.net/profile/angieselenamerchanmaldonado230432/wallet" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-secondary mt-3">
+          Ver más certificaciones
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </a>
+    </section>
+
+
+    <!-- Pie de pagina (footer) -->
+    <footer
+    id="Contactame"
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="imagenes/cohete-espacial.png"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+       Me encanta aprender y crear todos los días.<br /> Contactame para crear un proyecto juntos.
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/freecodecampES"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/freeCodeCamp/freeCodeCamp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/freecodecamp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:angiemerchan0506@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Selena Merchan (2023) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
